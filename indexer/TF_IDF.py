@@ -46,7 +46,7 @@ class My_TFIDF :
 
         return results
 
-    def save(self, path="tfidf_model.pkl"):
+    def save(self, path="APIs/tfidf_model.pkl"):
         joblib.dump({
             "vectorizer": self.vectorizer,
             "tfidf_matrix": self.tfidf_matrix,
@@ -54,7 +54,7 @@ class My_TFIDF :
         }, path)
 
     @classmethod
-    def load(cls, path="tfidf_model.pkl"):
+    def load(cls, path="APIs/tfidf_model.pkl"):
         data = joblib.load(path)
 
         obj = cls.__new__(cls)
@@ -64,15 +64,4 @@ class My_TFIDF :
         obj.pages_data = data["pages_data"]
 
         return obj
-    
-
-with open("crawled_pages.json", "r", encoding="utf-8") as file:
-    pages_data = json.load(file)
-
-tfidf = My_TFIDF(pages_data=pages_data)
-
-results = tfidf.search("python machine learning",0.1)
-
-for result in results:
-    print(result)
 

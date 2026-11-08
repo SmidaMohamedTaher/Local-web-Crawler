@@ -1,9 +1,7 @@
-
 import re
 import joblib
 import json
 from rank_bm25 import BM25Okapi
-
 
 class My_BM25:
 
@@ -18,22 +16,18 @@ class My_BM25:
 
         self.bm25 = BM25Okapi(self.tokenized_docs)
 
-
     def tokenize(self, text):
 
         return re.findall(r"\w+", text.lower())
 
-
-    def save(self, path="bm25_model.pkl"):
+    def save(self, path="APIs/bm25_model.pkl"):
 
         joblib.dump(self, path)
 
-
     @classmethod
-    def load(cls, path="bm25_model.pkl"):
+    def load(cls, path="APIs/bm25_model.pkl"):
 
         return joblib.load(path)
-
 
     def search(self, query):
 
@@ -59,4 +53,3 @@ class My_BM25:
         )
 
         return results
-

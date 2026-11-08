@@ -46,7 +46,8 @@ def crawl(start_page):
         pages_data.append({
             "url": str(current_page),
             "title": result["title"],
-            "text": result["text"]
+            "text": result["text"],
+            "links": result["links"]
         })
 
 
