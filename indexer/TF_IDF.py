@@ -47,21 +47,14 @@ class My_TFIDF :
         return results
 
     def save(self, path="APIs/tfidf_model.pkl"):
-        joblib.dump({
-            "vectorizer": self.vectorizer,
-            "tfidf_matrix": self.tfidf_matrix,
-            "pages_data": self.pages_data
-        }, path)
+        joblib.dump(self, path)
 
     @classmethod
     def load(cls, path="APIs/tfidf_model.pkl"):
-        data = joblib.load(path)
+        return joblib.load(path)
 
-        obj = cls.__new__(cls)
-
-        obj.vectorizer = data["vectorizer"]
-        obj.tfidf_matrix = data["tfidf_matrix"]
-        obj.pages_data = data["pages_data"]
-
-        return obj
-
+# with open("APIs/crawled_pages.json", "r", encoding="utf-8") as file:
+#      pages_data = json.load(file)
+     
+# tfidf = My_TFIDF(pages_data)
+# tfidf.save()

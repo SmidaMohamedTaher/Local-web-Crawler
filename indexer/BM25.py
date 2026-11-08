@@ -40,8 +40,9 @@ class My_BM25:
 
         results = [
             {
-                "score": float(score),
-                "page": page
+                "title": page["title"],
+                "url": page["url"],
+                "score": float(score)
             }
             for score, page in zip(scores, self.pages_data)
             if score > 0

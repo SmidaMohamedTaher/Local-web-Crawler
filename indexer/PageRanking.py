@@ -44,15 +44,9 @@ class WebGraph:
             json.dump(self.pagerank_scores, file, ensure_ascii=False, indent=4)
         return self.pagerank_scores
 
-with open("APIs/crawled_pages.json", "r", encoding="utf-8") as file:
-     pages_data = json.load(file)
-obj = WebGraph(pages_data)
-G = obj.get_graph()
+# with open("APIs/crawled_pages.json", "r", encoding="utf-8") as file:
+#      pages_data = json.load(file)
 
-nx.draw(G, with_labels=True, node_color="lightblue",
-        node_size=500, font_size=8)
+# w = WebGraph(pages_data=pages_data)
 
-
-plt.show()
-
-print(obj.calculate_pagerank())
+# w.calculate_pagerank()
