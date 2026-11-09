@@ -1,102 +1,12 @@
 [
     {
-        "url": "pages\\c.html",
-        "title": "C Programming Language",
-        "text": "C Programming Language C is a foundational procedural programming language offering low-level memory control and high computational efficiency. It serves as the building block for operating systems, embedded systems, and database kernels. Related Topics Algorithms OOP Java",
-        "links": [
-            "/pages/algorithmes.html",
-            "/pages/oop.html",
-            "/pages/java.html"
-        ]
-    },
-    {
-        "url": "pages\\algorithmes.html",
-        "title": "Algorithms",
-        "text": "Algorithms Algorithms are step-by-step procedures or sets of mathematical rules designed to perform computational tasks and solve problems efficiently. Understanding algorithmic efficiency and complexity is essential across computer science. Related Topics Graph Theories C Web Crawler",
-        "links": [
-            "/pages/graph-theories.html",
-            "/pages/c.html",
-            "/pages/web-crawler.html"
-        ]
-    },
-    {
-        "url": "pages\\oop.html",
-        "title": "Object-Oriented Programming (OOP)",
-        "text": "Object-Oriented Programming (OOP) Object-Oriented Programming is a design paradigm organized around objects and data rather than actions and logic. Concepts like encapsulation, inheritance, and polymorphism make software modular, reusable, and maintainable. Related Topics Java Python C",
-        "links": [
-            "/pages/java.html",
-            "/pages/python.html",
-            "/pages/c.html"
-        ]
-    },
-    {
-        "url": "pages\\java.html",
-        "title": "Java",
-        "text": "Java Java is a popular class-based, object-oriented programming language designed to have as few implementation dependencies as possible under the 'write once, run anywhere' principle. It is widely used for building secure enterprise applications. Related Topics Java in Machine Learning OOP C",
-        "links": [
-            "/pages/java-in-machine-learning.html",
-            "/pages/oop.html",
-            "/pages/c.html"
-        ]
-    },
-    {
-        "url": "pages\\graph-theories.html",
-        "title": "Graph Theories",
-        "text": "Graph Theories Graph theory studies mathematical structures used to model pairwise relations between objects, consisting of nodes connected by edges. It forms the foundational mathematics for network analysis, search algorithms, and social network mapping. Related Topics Algorithms Advanced Networks Web Crawler",
-        "links": [
-            "/pages/algorithmes.html",
-            "/pages/advanced-networks.html",
-            "/pages/web-crawler.html"
-        ]
-    },
-    {
-        "url": "pages\\web-crawler.html",
-        "title": "Web Crawler",
-        "text": "Web Crawler A web crawler is an automated script or program that systematically browses the World Wide Web for indexing purposes. It traverses hyper-links between pages to discover and fetch content for search engines. Related Topics Web Intelligence Advanced Networks Algorithms",
-        "links": [
-            "/pages/web-intelligence.html",
-            "/pages/advanced-networks.html",
-            "/pages/algorithmes.html"
-        ]
-    },
-    {
-        "url": "pages\\python.html",
+        "url": "pages/python.html",
         "title": "Python",
         "text": "Python Python is a high-level, interpreted programming language known for its clear syntax and versatility across domain areas. It empowers developers in web automation, machine learning, data engineering, and scientific computing. Related Topics Python in Machine Learning Python in Artificial Intelligence Python in Data Science",
         "links": [
             "/pages/python-in-machine-learning.html",
             "/pages/python-in-artificial-intelligence.html",
             "/pages/python-in-data-science.html"
-        ]
-    },
-    {
-        "url": "pages\\java-in-machine-learning.html",
-        "title": "Java in Machine Learning",
-        "text": "Java in Machine Learning Java provides robust enterprise scalability and high performance for implementing machine learning algorithms in large systems. Libraries such as Weka and Deeplearning4j enable software engineers to integrate predictive intelligence seamlessly. Related Topics Machine Learning Java OOP",
-        "links": [
-            "/pages/machine-learning.html",
-            "/pages/java.html",
-            "/pages/oop.html"
-        ]
-    },
-    {
-        "url": "pages\\advanced-networks.html",
-        "title": "Advanced Networks",
-        "text": "Advanced Networks Advanced networking covers complex network architectures, high-performance protocols, distributed computing systems, and packet routing algorithms. It establishes the robust foundation required for secure and fast global communication. Related Topics Network Security Cybersecurity Graph Theories",
-        "links": [
-            "/pages/network-security.html",
-            "/pages/cybersecurity.html",
-            "/pages/graph-theories.html"
-        ]
-    },
-    {
-        "url": "pages\\web-intelligence.html",
-        "title": "Web Intelligence",
-        "text": "Web Intelligence Web intelligence explores how artificial intelligence and advanced information technologies can be applied to web-based applications and ecosystems. It includes web mining, semantic web structures, and user behavior analytics. Related Topics Web Crawler Introduction to Artificial Intelligence NLP",
-        "links": [
-            "/pages/web-crawler.html",
-            "/pages/introduction-to-artificial-intelligence.html",
-            "/pages/nlp.html"
         ]
     },
     {
@@ -141,21 +51,23 @@
         ]
     },
     {
-        "url": "pages\\network-security.html",
-        "title": "Network Security",
-        "text": "Network Security Network security comprises the policies, processes, and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources. Related Topics Cybersecurity Advanced Networks",
+        "url": "pages\\python.html",
+        "title": "Python",
+        "text": "Python Python is a high-level, interpreted programming language known for its clear syntax and versatility across domain areas. It empowers developers in web automation, machine learning, data engineering, and scientific computing. Related Topics Python in Machine Learning Python in Artificial Intelligence Python in Data Science",
         "links": [
-            "/pages/cybersecurity.html",
-            "/pages/advanced-networks.html"
+            "/pages/python-in-machine-learning.html",
+            "/pages/python-in-artificial-intelligence.html",
+            "/pages/python-in-data-science.html"
         ]
     },
     {
-        "url": "pages\\cybersecurity.html",
-        "title": "Cybersecurity",
-        "text": "Cybersecurity Cybersecurity involves defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It encompasses information security, operational security, and disaster recovery strategies. Related Topics Network Security Advanced Networks",
+        "url": "pages\\algorithmes.html",
+        "title": "Algorithms",
+        "text": "Algorithms Algorithms are step-by-step procedures or sets of mathematical rules designed to perform computational tasks and solve problems efficiently. Understanding algorithmic efficiency and complexity is essential across computer science. Related Topics Graph Theories C Web Crawler",
         "links": [
-            "/pages/network-security.html",
-            "/pages/advanced-networks.html"
+            "/pages/graph-theories.html",
+            "/pages/c.html",
+            "/pages/web-crawler.html"
         ]
     },
     {
@@ -190,12 +102,110 @@
         ]
     },
     {
+        "url": "pages\\java-in-machine-learning.html",
+        "title": "Java in Machine Learning",
+        "text": "Java in Machine Learning Java provides robust enterprise scalability and high performance for implementing machine learning algorithms in large systems. Libraries such as Weka and Deeplearning4j enable software engineers to integrate predictive intelligence seamlessly. Related Topics Machine Learning Java OOP",
+        "links": [
+            "/pages/machine-learning.html",
+            "/pages/java.html",
+            "/pages/oop.html"
+        ]
+    },
+    {
+        "url": "pages\\graph-theories.html",
+        "title": "Graph Theories",
+        "text": "Graph Theories Graph theory studies mathematical structures used to model pairwise relations between objects, consisting of nodes connected by edges. It forms the foundational mathematics for network analysis, search algorithms, and social network mapping. Related Topics Algorithms Advanced Networks Web Crawler",
+        "links": [
+            "/pages/algorithmes.html",
+            "/pages/advanced-networks.html",
+            "/pages/web-crawler.html"
+        ]
+    },
+    {
+        "url": "pages\\c.html",
+        "title": "C Programming Language",
+        "text": "C Programming Language C is a foundational procedural programming language offering low-level memory control and high computational efficiency. It serves as the building block for operating systems, embedded systems, and database kernels. Related Topics Algorithms OOP Java",
+        "links": [
+            "/pages/algorithmes.html",
+            "/pages/oop.html",
+            "/pages/java.html"
+        ]
+    },
+    {
+        "url": "pages\\web-crawler.html",
+        "title": "Web Crawler",
+        "text": "Web Crawler A web crawler is an automated script or program that systematically browses the World Wide Web for indexing purposes. It traverses hyper-links between pages to discover and fetch content for search engines. Related Topics Web Intelligence Advanced Networks Algorithms",
+        "links": [
+            "/pages/web-intelligence.html",
+            "/pages/advanced-networks.html",
+            "/pages/algorithmes.html"
+        ]
+    },
+    {
         "url": "pages\\mas.html",
         "title": "Multi-Agent Systems (MAS)",
         "text": "Multi-Agent Systems (MAS) A Multi-Agent System is a computerized system composed of multiple interacting intelligent agents that coordinate to solve complex problems collectively. These systems are used in swarm intelligence, autonomous robotics, and dynamic simulations. Related Topics Introduction to Artificial Intelligence Algorithms",
         "links": [
             "/pages/introduction-to-artificial-intelligence.html",
             "/pages/algorithmes.html"
+        ]
+    },
+    {
+        "url": "pages\\web-intelligence.html",
+        "title": "Web Intelligence",
+        "text": "Web Intelligence Web intelligence explores how artificial intelligence and advanced information technologies can be applied to web-based applications and ecosystems. It includes web mining, semantic web structures, and user behavior analytics. Related Topics Web Crawler Introduction to Artificial Intelligence NLP",
+        "links": [
+            "/pages/web-crawler.html",
+            "/pages/introduction-to-artificial-intelligence.html",
+            "/pages/nlp.html"
+        ]
+    },
+    {
+        "url": "pages\\java.html",
+        "title": "Java",
+        "text": "Java Java is a popular class-based, object-oriented programming language designed to have as few implementation dependencies as possible under the 'write once, run anywhere' principle. It is widely used for building secure enterprise applications. Related Topics Java in Machine Learning OOP C",
+        "links": [
+            "/pages/java-in-machine-learning.html",
+            "/pages/oop.html",
+            "/pages/c.html"
+        ]
+    },
+    {
+        "url": "pages\\oop.html",
+        "title": "Object-Oriented Programming (OOP)",
+        "text": "Object-Oriented Programming (OOP) Object-Oriented Programming is a design paradigm organized around objects and data rather than actions and logic. Concepts like encapsulation, inheritance, and polymorphism make software modular, reusable, and maintainable. Related Topics Java Python C",
+        "links": [
+            "/pages/java.html",
+            "/pages/python.html",
+            "/pages/c.html"
+        ]
+    },
+    {
+        "url": "pages\\advanced-networks.html",
+        "title": "Advanced Networks",
+        "text": "Advanced Networks Advanced networking covers complex network architectures, high-performance protocols, distributed computing systems, and packet routing algorithms. It establishes the robust foundation required for secure and fast global communication. Related Topics Network Security Cybersecurity Graph Theories",
+        "links": [
+            "/pages/network-security.html",
+            "/pages/cybersecurity.html",
+            "/pages/graph-theories.html"
+        ]
+    },
+    {
+        "url": "pages\\network-security.html",
+        "title": "Network Security",
+        "text": "Network Security Network security comprises the policies, processes, and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources. Related Topics Cybersecurity Advanced Networks",
+        "links": [
+            "/pages/cybersecurity.html",
+            "/pages/advanced-networks.html"
+        ]
+    },
+    {
+        "url": "pages\\cybersecurity.html",
+        "title": "Cybersecurity",
+        "text": "Cybersecurity Cybersecurity involves defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It encompasses information security, operational security, and disaster recovery strategies. Related Topics Network Security Advanced Networks",
+        "links": [
+            "/pages/network-security.html",
+            "/pages/advanced-networks.html"
         ]
     }
 ]
