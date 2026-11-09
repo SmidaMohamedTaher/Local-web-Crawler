@@ -1,6 +1,6 @@
 [
     {
-        "url": "pages/python.html",
+        "url": "pages\\python.html",
         "title": "Python",
         "text": "Python Python is a high-level, interpreted programming language known for its clear syntax and versatility across domain areas. It empowers developers in web automation, machine learning, data engineering, and scientific computing. Related Topics Python in Machine Learning Python in Artificial Intelligence Python in Data Science",
         "links": [
@@ -48,16 +48,6 @@
             "/pages/python-in-machine-learning.html",
             "/pages/java-in-machine-learning.html",
             "/pages/python.html"
-        ]
-    },
-    {
-        "url": "pages\\python.html",
-        "title": "Python",
-        "text": "Python Python is a high-level, interpreted programming language known for its clear syntax and versatility across domain areas. It empowers developers in web automation, machine learning, data engineering, and scientific computing. Related Topics Python in Machine Learning Python in Artificial Intelligence Python in Data Science",
-        "links": [
-            "/pages/python-in-machine-learning.html",
-            "/pages/python-in-artificial-intelligence.html",
-            "/pages/python-in-data-science.html"
         ]
     },
     {

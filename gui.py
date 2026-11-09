@@ -7,7 +7,7 @@ from indexer.BM25 import My_BM25
 from indexer.TF_IDF import My_TFIDF
 
 from search.search import Search
-from updater import start_updater, stop_updater, _lock
+
 
 # ── colours & fonts ──────────────────────────────────────────────────────────
 BG        = "#1e1e2e"
@@ -48,7 +48,7 @@ class App(tk.Tk):
         self.search_engine = load_models()
         self._build_ui()
 
-        start_updater()
+       
         self.protocol("WM_DELETE_WINDOW", self._on_close)
 
     # ── UI construction ───────────────────────────────────────────────────────
@@ -122,12 +122,6 @@ class App(tk.Tk):
             return
 
         # reload models so results reflect latest background update
-        try:
-            with _lock:
-                self.search_engine = load_models()
-        except Exception as e:
-            messagebox.showerror("Model load error", str(e))
-            return
 
         method = self._method_var.get()
         dispatch = {
@@ -172,7 +166,6 @@ class App(tk.Tk):
     # ── lifecycle ─────────────────────────────────────────────────────────────
 
     def _on_close(self):
-        stop_updater()
         self.destroy()
 
 
